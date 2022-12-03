@@ -1,0 +1,19 @@
+tema meet : Context
+
+
+Cuando usarlo?
+
+Que solucion nos brinda?
+
+ - Transimicion de datos entre componentes de forma centralizada 
+ ( se tiene un contexto donde se guarda toda la info y todos los componentes 
+    pueden acceder a la misma ).
+
+
+- Hay situaciones en las cuales no queremos que los datos sean visibles
+ o sean accedidos por todos los componentes.
+
+- Hay ocasiones en las que por medio de props y children podemos transmitir
+    de forma mas sencilla la data sin crear un contexto.
+
+https://reactjs.org/docs/context.html#when-to-use-context
